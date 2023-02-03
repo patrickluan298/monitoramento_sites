@@ -103,7 +103,6 @@ func leSitesDoArquivo() []string {
 		if err == io.EOF {
 			break
 		}
-
 	}
 
 	arquivo.Close()
@@ -132,5 +131,4 @@ func imprimeLogs() {
 	}
 
 	fmt.Println(string(arquivo))
-
 }
